@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.2.0
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-basically-theme/blob/master/LICENSE.md
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Manjaro Xfce Qpdfview Problem With Qt5ct Unable to Load Plugin in First Attempt | El blog del tecnólogo</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Manjaro Xfce Qpdfview Problem With Qt5ct Unable to Load Plugin in First Attempt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I currently have two (2) identical - or that’s what it seemed like - xfce environments on two (2) different hardware systems." />
+<meta property="og:description" content="I currently have two (2) identical - or that’s what it seemed like - xfce environments on two (2) different hardware systems." />
+<link rel="canonical" href="http://localhost:4000/2017/10/19/manjaro-xfce-qpdfview-problem-with-qt5ct-unable-to-load-plugin-in-first-attempt.html" />
+<meta property="og:url" content="http://localhost:4000/2017/10/19/manjaro-xfce-qpdfview-problem-with-qt5ct-unable-to-load-plugin-in-first-attempt.html" />
+<meta property="og:site_name" content="El blog del tecnólogo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-10-19T03:52:43-05:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Manjaro Xfce Qpdfview Problem With Qt5ct Unable to Load Plugin in First Attempt","dateModified":"2017-10-19T03:52:43-05:00","datePublished":"2017-10-19T03:52:43-05:00","description":"I currently have two (2) identical - or that’s what it seemed like - xfce environments on two (2) different hardware systems.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/10/19/manjaro-xfce-qpdfview-problem-with-qt5ct-unable-to-load-plugin-in-first-attempt.html"},"url":"http://localhost:4000/2017/10/19/manjaro-xfce-qpdfview-problem-with-qt5ct-unable-to-load-plugin-in-first-attempt.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="El blog del tecnólogo" href="/atom.xml">
+  
+</head>
+
+
+  <body class="layout--post manjaro-xfce-qpdfview-problem-with-qt5ct-unable-to-load-plugin-in-first-attempt">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="/atom.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            
+            <span>El blog del tecnólogo</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 class="intro-title">Manjaro Xfce Qpdfview Problem With Qt5ct Unable to Load Plugin in First Attempt
+</h1>
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2017-10-19T03:52:43-05:00">October 19, 2017</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>3 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p>I currently have two (2) identical - or that’s what it seemed like - <strong>xfce</strong> environments on two (2) different hardware systems.</p>
+
+<p>I always keep at hand a list of viewers and if there is any problem removing those to be found unnecessarily large or extremely light to the point of rendering them useless, I tend to check the Arch Wiki at <a href="https://wiki.archlinux.org/index.php/list_of_applications" target="_blank">List of Applications</a> for a refresher on what’s available at the moment.</p>
+
+<p>I’ve always found useful, more or less two (2), or three (3) of them, among them, with a quick copy-paste from the Arch Wiki:</p>
+
+<p>gv — Graphical user interface for the Ghostscript interpreter that allows to view and navigate through PostScript and PDF documents.</p>
+
+<p>ePDFView — Free lightweight PDF document viewer using the Poppler and GTK+ libraries. Development stopped.</p>
+
+<p>qpdfview — Tabbed document viewer. It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.</p>
+
+<p>The latter, strangely enough, was behaving differently on one of the <strong>manjaro xfce</strong> systems.</p>
+
+<p>A quick google search turned pretty much nothing, related to this issue I was having: namely, the adjustment and consequent resizing for the Settings Window.</p>
+
+<p><img src="/images/manjaro-xfce-qpdfview-settings-box-wrong.png" width="680px" height="450px;" /></p>
+
+<p>As you can see from the image above, I was unable to get to the bottom of the window whereto I could’ve specified <strong>to cancel</strong> or <strong>apply</strong> the changes to take effect via a GUI. What use is a GUI if one can’t access the main settings of the program?</p>
+
+<p>This took me to the wrong path in trying to modify the settings upon which the <strong>Dialog box</strong> depended on.</p>
+
+<p>The settings for <code>qpdfview.conf</code> were found right under the <code>.conf/qpdfview/</code> directory.</p>
+
+<p>To no avail I tried to change the settings for the</p>
+
+<pre><code> settingsDialogSize=@Size(488 803)
+</code></pre>
+
+<p>on the <strong>qpdfview.conf</strong> file, but every single time I did so, even after changing the above size to other feasible settings, the settings window loaded the default and preconfigured values for it, rendering any change I had made earlier such as modifying the values for that <strong>settingsDialogSize</strong> onto the configuration file,  obsolete.</p>
+
+<p>Then I gave up tweaking around with the <code>qpdfview.conf</code> file. Even after removing this file, removing <strong>qpdfview</strong> along with all poppler libraries from the system, reinstalling the program again, logging out of the system, and restarting, and logging right back in, the problem still persisted.</p>
+
+<p>The settings window remained, remained useless for the most part - and from a GUI’s perspective.</p>
+
+<p>Of course I could have just pressed the <strong>carriage</strong> return key on the keyboard to apply the changes, or for that matter the <strong>escape</strong> key to discard any changes, but this was just besides the point, since it defeated the purpose of having GUI applications running. I needed it to be operational.</p>
+
+<p>I tried another venue.</p>
+
+<p>I noticed that every single time that the program <strong>qpdfview</strong> was invoked from the command line, several errors appeared, including the most significant of the lot:</p>
+
+<pre><code> qt5ct: using qt5ct plugin
+ qt5ct: D-Bus global menu: no
+ Could not load plug-in in first attempt: ""
+ "The shared library was not found."
+</code></pre>
+
+<p>the second of these messages was self-explanatory. The libraries upon which qpdfview relied upon, were not recognizing or finding the plugin.</p>
+
+<p>A quick search on google later regarding <strong>qt5ct</strong> did not provide a satisfactory explanation behind the <strong>qpdfview</strong> problem.</p>
+
+<p>I read some of the visual methods in adjusting the settings for <strong>qt</strong> on <a href="https://www.pcsuggest.com/qt5ct-change-qt5-application-style/" target="_blank">Change Qt5 application style with qt5ct</a></p>
+
+<p>So I started <strong>qt5ct</strong>, and I noticed that the default settings for the window was to have <strong>gtk2</strong> as the style to be loaded.</p>
+
+<p>Then right after I had changed it to one of the other values, I had high expectations that the changes would improve the dimensions of the dialog box settings for <strong>qpdfview</strong>. But I was wrong. It made everything worse off.</p>
+
+<p>I finally had to tweak around with the problem directly through the <code>qt5ct.conf</code> file by changing the style field. Only then the problem with <strong>qpdfview</strong> was resolved.</p>
+
+<pre><code> [Appearance]
+ color_scheme_path=
+ custom_palette=true
+ icon_theme=Vertex-Maia
+ style=gtk2
+</code></pre>
+
+<p>The style value was modified to <strong>Breeze</strong>, I saved the file and exited.</p>
+
+<p>The <strong>qt5ct.conf</strong> file should have on the Appearance the following:</p>
+
+<pre><code> [Appearance]
+ color_scheme_path=
+ custom_palette=true
+ icon_theme=Vertex-Maia
+ style=Breeze
+</code></pre>
+
+<p>Right after making the changes - not even a logout was required - <strong>qpdfview</strong> dialog box dimensions were working and definitely manageable. The only glitch - if it may be rightfully called as such - was an apparent back-to-back unwanted behavior in which the whole window for the settings, was not clearly visible, but one quick maximizing drag-around-movement maneuver, fixed the annoyance once and for all.</p>
+
+<p><img src="/images/qpdfview-correct-settings-dialog-box-1.png" width="680" height="450" /></p>
+
+
+      </div>
+      
+    </article>
+
+    <footer id="footer" class="site-footer">
+  <div class="copyright">
+    
+      <p>&copy; 2018 El blog del tecnólogo.</p>
+    
+  </div>
+</footer>
+
+  </div>
+</main>
+
+      </div>
+    </div>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+  </body>
+
+</html>
