@@ -76,6 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
+  jekyll-paginate
   jekyll-theme-basically-basic!
   rake (~> 10.0)
 
