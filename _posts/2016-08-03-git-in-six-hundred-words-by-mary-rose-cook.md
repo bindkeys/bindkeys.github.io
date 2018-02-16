@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Git in Six Hundred Words by Mary Rose Cook"
-date : "2016-08-03T14:45:04-05:00"
+date : "2016-08-03"
 ---
 <p>Imagine you have a directory called <code>alpha</code>. It contains a file called <code>number.txt</code> that contains the text <code>first</code>.</p>
 

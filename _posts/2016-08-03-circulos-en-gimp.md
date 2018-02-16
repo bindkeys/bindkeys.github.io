@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Círculos en Gimp"
-date : "2016-08-03T14:13:46-05:00"
+date : "2016-08-03"
 ---
 
 <p>Esto es solamente un recordatorio para realizar varias modificaciones a cualquier imagen en <a href="https://www.gimp.org/">GNU  Gimp</a>.</p>
