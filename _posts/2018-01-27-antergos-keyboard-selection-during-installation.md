@@ -16,15 +16,15 @@ date : "2018-01-27T08:49:17-05:00"
 
 <p>As the wiki <a href="https://wiki.archlinux.org/index.php/Keyboard_configuration_in_Xorg#Using_X_configuration_files" target="_blank">Using X configuration files wiki</a> recommends, not to modify any of the settings manually, but let instead <strong>localectl</strong> handle it. <a href="#sample"><sup id="sampleref">1</sup></a></p>
 
-<p><img src="https://imfrom.github.io/images/localectl-usage.png" alt="" /></p>
+<p><img src="/images/localectl-usage.png" alt="" /></p>
 
 <p>Of course, it comes handy when there is even an example that illustrates the process by using the correct parameters. For something like:</p>
 
-<p><img src="https://imfrom.github.io/images/00-keyboard-sample.png" alt="" /></p>
+<p><img src="/images/00-keyboard-sample.png" alt="" /></p>
 
 <p>Then something like the following <a href="#localectl"><sup id="localectlref">2</sup></a>, based on the previous example, suffices:</p>
 
-<p><img src="https://imfrom.github.io/images/localectl-sample-usage.png" alt="" /></p>
+<p><img src="/images/localectl-sample-usage.png" alt="" /></p>
 
 <p>Set the values as deemed applicable to the desired customization.</p>
 

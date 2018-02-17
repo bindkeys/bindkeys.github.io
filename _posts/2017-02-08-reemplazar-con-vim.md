@@ -7,7 +7,7 @@ date : "2017-02-08T13:48:53-05:00"
 
 <p>En el website de programadores de superuser.com, <a href="http://superuser.com/questions/737130/automatically-capitalize-the-first-letter-of-sentence-in-vim" target="_blank">superuser.com/questions/737130/automatically-capitalize-the-first-letter-of-sentence-in-vim</a> se hace esta misma pregunta para lograr el reemplazo automático de minúsculas por mayúsculas al principio de cada oración.</p>
 
-<p>Una de las repuestas <a href="https://imfrom.github.io/post/reemplazo-de-minusculas-por-mayuscula-en-oracion/#script"><sup id="fnref">1</sup></a> hace énfasis de esto mediante la adición de un unas líneas de script o programa de ejecución.</p>
+<p>Una de las repuestas <a href="#script"><sup id="fnref">1</sup></a> hace énfasis de esto mediante la adición de un unas líneas de script o programa de ejecución.</p>
 
 <p>El problema que esto conlleva, y como uno de los usuarios comentó,</p>
 

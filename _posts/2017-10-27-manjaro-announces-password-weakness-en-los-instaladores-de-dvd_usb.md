@@ -9,7 +9,7 @@ date : "2017-06-27T13:20:54-05:00"
 
 <p>Entre estas actualizaciones se encuentran las nuevas versiones de los instaladores gráficos tanto como <strong>thus</strong> al igual que <strong>calamares</strong>.</p>
 
-<p>También se anuncia la fragilidad en la generación de la contraseña o la clave que tanto el programa <strong>thus</strong> como <strong>calamares</strong> emplean durante el proceso de instalación a través tanto del ya mencionado <strong>thus</strong> o de <strong>calamares</strong> que en hashtag con modo predecible se utiliza durante la creación de estas contraseñas. <a href="https://imfrom.github.io/post/manjaro-announces-password-weakness/#shadow"><sup id="shadowref">1</sup></a></p>
+<p>También se anuncia la fragilidad en la generación de la contraseña o la clave que tanto el programa <strong>thus</strong> como <strong>calamares</strong> emplean durante el proceso de instalación a través tanto del ya mencionado <strong>thus</strong> o de <strong>calamares</strong> que en hashtag con modo predecible se utiliza durante la creación de estas contraseñas. <a href="#shadow"><sup id="shadowref">1</sup></a></p>
 
 <p>Las versiones más recientes de <strong>thus</strong> y de <strong>calamares</strong> no están afectadas.</p>
 
@@ -78,4 +78,7 @@ date : "2017-06-27T13:20:54-05:00"
 
 <p>En el caso de <strong>shadow-</strong> no hay que hacer ninguna modificación. Es decir, el fichero <strong>shadow-</strong> que es seguido de un diptongo, es un archivo de copia del original.</p>
 
-<p>Para más detalles acerca de esto vea la página en <a href="https://forum.manjaro.org/t/manjaro-installers-password-weakness/26322" target="_blank">Manjaro installers - password weakness</a></p>
+
+## References
+
+<a href="#shadowref">&crarr;</a><a name="shadow"></a>Para más detalles acerca de esto vea la página en <a href="https://forum.manjaro.org/t/manjaro-installers-password-weakness/26322" target="_blank">Manjaro installers - password weakness</a>

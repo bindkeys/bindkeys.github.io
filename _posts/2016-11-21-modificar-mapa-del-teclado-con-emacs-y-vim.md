@@ -3,7 +3,7 @@ title : "Modificar Mapa Del Teclado Con Emacs Y Vim"
 date : "2016-11-21T14:40:45-05:00"
 ---
 
-<p>Estos son algunos de los ejemplos que se pueden utilizar a través de los inmensamente populares editores de programación Emacs <a href="https://imfrom.github.io/post/modificar-mapa-del-teclado/#emacs"><sup>1</sup></a> y Vim <a href="https://imfrom.github.io/post/modificar-mapa-del-teclado/#vim"><sup>2</sup></a>, para cambiar el mapa del teclado.</p>
+<p>Estos son algunos de los ejemplos que se pueden utilizar a través de los inmensamente populares editores de programación Emacs <a href="#emacssup"><sup id="emacsref">1</sup></a> y Vim <a href="#vimsup"><sup id="vimref">2</sup></a>, para cambiar el mapa del teclado.</p>
 
 <h2 id="emacs">Emacs</h2>
 
@@ -57,3 +57,8 @@ date : "2016-11-21T14:40:45-05:00"
 
 <p>sería imprescindible para finalizar la modificación de estas teclas.</p>
 
+## References 
+
+<a name="emacssup"></a>Emacs disponible en <a href="https://gnu.org/s/emacs" target="_blank">GNU/Linux emacs</a> <a href="#emacsref">&crarr;</a>  
+
+<a name="vimsup"></a> Vim está disponible en <a href="http://vim.org" target="_blank">Vim</a> <a href="#vimref">&crarr;</a>

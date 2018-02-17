@@ -3,7 +3,7 @@ layout : post
 title : "Manjaro Desplaza a Ubuntu"
 date : "2017-03-14T13:23:51-05:00"
 ---
-<p>Hace más o menos un mes que escribí acerca de la configuración del <a href="https://imfrom.github.io/post/manjaro-splash-screen-in-ssd/">tema splash de la pantalla</a> y el cual se podía anular en la susodicha configuración a través de las <strong>preferencias</strong>,  seguido del <strong>tema del escritorio</strong> cuando se utiliza un disco de estado sólido o un SSD (solid state drive).</p>
+<p>Hace más o menos un mes que escribí acerca de la configuración del <a href="https://bindkeys.github.io/2017/02/15/turn-off-manjaro-kde-splash-screen-if-on-ssd.html">tema splash de la pantalla</a> y el cual se podía anular en la susodicha configuración a través de las <strong>preferencias</strong>,  seguido del <strong>tema del escritorio</strong> cuando se utiliza un disco de estado sólido o un SSD (solid state drive).</p>
 
 <p>En el momento de escribir acerca de ello, y de acuerdo a las estadísticas que se mostraban en <a href="http://distrowatch.com/" target="_blank">distrowatch.com</a>, los datos que se habían recopilado no reflejaban aún los últimos seis meses.</p>
 
